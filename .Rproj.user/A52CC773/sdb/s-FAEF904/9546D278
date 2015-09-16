@@ -1,14 +1,14 @@
 {
-    "contents" : "library(ape)\nlibrary(geiger)\nlibrary(ggplot)\n\n\n      ",
+    "contents" : "# This is my scatch script for practicing R\n\nlibrary(ape)\nlibrary(geiger)\nlibrary(ggplot)\n\n\n      ",
     "created" : 1442422002732.000,
-    "dirty" : true,
-    "encoding" : "",
+    "dirty" : false,
+    "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2325780627",
+    "hash" : "2389109600",
     "id" : "9546D278",
-    "lastKnownWriteTime" : 0,
-    "path" : null,
-    "project_path" : null,
+    "lastKnownWriteTime" : 1442422770,
+    "path" : "~/Desktop/eeb201/Script 1.R",
+    "project_path" : "Script 1.R",
     "properties" : {
         "tempName" : "Untitled1"
     },
