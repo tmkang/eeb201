@@ -1,12 +1,12 @@
 {
-    "contents" : "# This is my scatch script for practicing R\n\nlibrary(ape)\nlibrary(geiger)\nlibrary(ggplot)\n\n\n      ",
+    "contents" : "# This is my scatch script for practicing R\n\nlibrary(ape)\nlibrary(geiger)\nlibrary(ggplot)\n\nsetwd(Users/manzhu_kang/Desktop/eeb201)\n\n\n#how to call a function\nall.I.know.about.life.I.learned.in.grad.school()\nall.I.know.about.life.I.learned.in.grad.school\n\nall.I.know.about.life.I.learned.in.grad.school()     \ntt <- read.tree(\"tree.tre\")\n\n# tracking dim(dd)[1] instead of typing the number of columns \n# set data frame length to dim(dd)[1]\n# random uniform with size function, size <-\nsize <- runif(dlenght)\n\n#new data frame as combined dd, size\nhead(cbind(dd, size))\n\n#rename newdd as cbind\n\nnewdd <- cbind(dd, size)\nhead(newdd)\n\n#reset dd as cbind(dd, size)\nhead(dd)\n\n#stores rows of mpf swimmers\nmpfs <- wihch(dd$mode == \"MPF\")\nmpfs <- which(dd$mode == \"MPF\")\ndd[mpfs]\nmpfs_swimmers <- dd[mpfs,]\n# a data frame with only mpfs, \ndd[mpfs,]\njust_mpfs <- dd[which(dd$mode == \"MPF\")]\n#give a short name for something used often\n\n# R challenge make new data frame with large species only hints\nwhich(dd$species == \"hint\")\nwhich(dd$species == \"large\")\n\n# practice continues\n# create notfish\nnotfish <- c(\"bat\", \"dolphin\", \"toad\", \"soldier\")\n# sep = no space added in between \"separate\"\n# cat by defaul add space in between\n\n# loop\nfor (animal in notfish){cat(animal, \"fish\\n\", sep = \"\")}\nfor (animal in notfish){cat(animal, \"fish\\n\")}\nfor (animal in notfish){cat(animal, \"fish\\n\", 1, sep = \"\")}\nfor (animal in notfish){cat(animal, \"fish\\n\", 1, sep = \"\")}\n\n#while loop\n\nxx <- 1\nwhile(xx < 5){xx <- xx+1}\nprint(xx)\nwhile(xx < 5){xx<-xx+1; if (xx == 3){break;} }\nprint(xx)\nxx <- 1\nwhile(xx < 5){xx<-xx+1; if (xx == 3){break;} }\nprint(xx)\n\nwhile(xx < 10) {\n  cat(\"value of xx\", xx, \"\\n\") \n  xx <- xx+1; \nif(xx == 7) {break; }\n  if (xx == 2) {\n    cat(\"my favorite number is\", xx, \"\\n\")}}\n\n#else if \nxx <- 1\nwhile(xx < 10) {\n  cat(\"value of xx\", xx, \"\\n\")\n  xx <- xx+1;\n  if (xx == 7) {\n    cat(\"lucky number\", xx, \"\\n\")}\n  if (xx == 2){\n    cat(\"the number\", xx, \"is unlucky\\n\")}\n  else{cat(\"not excited about the number\", xx, \"\\n\")}\n  }\n\n\n#Bootcamp exercise 1\n\n#Exercise 1) Write a for loop statements so that it runs from 1:9 \n#and prints the following output to your screen:\n\n",
     "created" : 1442422002732.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2389109600",
+    "hash" : "651490652",
     "id" : "9546D278",
-    "lastKnownWriteTime" : 1442422770,
+    "lastKnownWriteTime" : 1442430483,
     "path" : "~/Desktop/eeb201/Script 1.R",
     "project_path" : "Script 1.R",
     "properties" : {
