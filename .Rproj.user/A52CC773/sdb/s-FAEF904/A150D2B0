@@ -1,0 +1,18 @@
+{
+    "contents" : "# pseudo code exercise\n\nsum(1:20)\n\n# N(t+1) = R x N(t)\n# t <- c(1:10)\n# N <- 100\n# R <- 1.05\n# for (ii in t){cat}\n\nN <- 100\nR <- 1.05\nt <- c(1:10)\nnnMatrix <- matrix(NA, nrow=1, ncol=10+1)\nfor (t in 1:10){nnMatrix[t+1] <- R*nnMatrix[t]}\nprint(nnMatrix)\n\nnn <- matrix(NA, nrow=1, ncol=10+1)\nnn[1] <- 100\ntt <- c(1:10)\nfor (tt in 1:10){nn[tt+1] <- 1.05*nn[tt]}\nprint(nn)\nplot(1:(tt+1), nn, xlab = \"time\", ylab = \"N\", col = \"hot pink\")\n\nnn <- matrix(NA, nrow=1, ncol=ttMax+1)\nnn[1] <- N0\nN0 <- 25\ntt <- c(1:ttMax)\nttMax <- 100\nRR <- 1.05\nfor (tt in 1:ttMax){nn[tt+1] <- RR*nn[tt]}\nprint(nn)\n\nplot(1:(ttMax+1), nn, xlab = \"time\", ylab = \"N\", col = \"hot pink\")\n\ngeometrixFunction <- function(N0, RR, ttMax) {\n  nn <- matrix(NA, nrow=1, ncol=ttMax+1)\n  nn[1] <- N0\n  for (tt in 1:ttMax){nn[tt+1] <- RR*nn[tt]}\n  plot(1:(ttMax+1), nn, xlab = \"time\", ylab = \"N\", col = \"hot pink\")}\n\n### include the plot inside of the {} so it becomes part of the funtion \n### to call a function, Name, and variables in ()\n\ngeometrixFunction(N0 = 10, RR = 0.9, ttMax = 20)\n\ngeometrixFunction(N0 = 20, RR = 0.85, ttMax = 40)\n\n    ",
+    "created" : 1442436381836.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2743316205",
+    "id" : "A150D2B0",
+    "lastKnownWriteTime" : 1442443811,
+    "path" : "~/Desktop/eeb201/geometrixfunction script and plot.R",
+    "project_path" : "geometrixfunction script and plot.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

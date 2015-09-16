@@ -1,0 +1,18 @@
+{
+    "contents" : "nn <- matrix(NA, nrow=1, ncol=ttMax+1)\nnn[1] <- N0\nfor (tt in 1:ttMax){nn[tt+1] <- RR*nn[tt]}\nplot(1:(ttMax+1), nn, xlab = \"time\", ylab = \"N\", col = \"hot pink\")\n\nnn <- matrix(NA, nrow = 1, ncol = ttMax+1)\nnn[1] <- N0\nrr <- 0.55\nkk <- 100\nfor (tt in 1:ttMax){\n  nn[tt+1] <- nn[tt]*(1+rr*(1-(nn[tt]/kk)))\n  }\n\nplot(1:(ttMax+1), nn, xlab = \"time\", ylab = \"N\", col = \"hot pink\")\n\ndiscLogRFunc <- function (N0, rr, kk)for (tt in 1:ttMax){\n  nn[tt+1] <- nn[tt]*(1+rr*(1-(nn[tt]/kk)))\n  plot(1:(ttMax+1), nn, xlab = \"time\", ylab = \"N\", col = \"hot pink\")\n}\ndiscLogRFunc(N0=10, rr=0.5, kk=100)\n\n",
+    "created" : 1442443880258.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4258648488",
+    "id" : "9B6F0117",
+    "lastKnownWriteTime" : 1442445131,
+    "path" : "~/Desktop/eeb201/discrete_logistic.R",
+    "project_path" : "discrete_logistic.R",
+    "properties" : {
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
