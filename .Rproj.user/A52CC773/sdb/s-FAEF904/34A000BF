@@ -1,0 +1,18 @@
+{
+    "contents" : "# Bootcamp exercise\n\nfor (ii in 1:9)\n",
+    "created" : 1442434813513.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3827484547",
+    "id" : "34A000BF",
+    "lastKnownWriteTime" : 1442434868,
+    "path" : "~/Desktop/eeb201/Exercise.R",
+    "project_path" : "Exercise.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
