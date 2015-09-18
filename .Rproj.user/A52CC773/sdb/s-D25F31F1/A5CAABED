@@ -1,0 +1,18 @@
+{
+    "contents" : "# Sep 17th \n#pdf(\"RplotExcersie.pdf\", width=4, height=5)\n\ns1 <- rnorm(1000, mean=0, sd=1)\ns3 <- rnorm(1000, mean=0, sd=3)\n\nbins <- seq(-10, 11, by=1)\nhist(s1, breaks=bins)$breaks\n\nhist(s3, breaks=bins)$breaks\n\n\ncounts_1 <- hist(s1, breaks=bins)$counts\ncounts_3 <- hist(s3, breaks=bins)$counts\n\nbarplot(rbind(counts_1, counts_3), col=c(2,4), beside=T, names.arg = seq(-10, 10, by=1),\nxlab=\"Value\", ylab=\"Count\")\n\ndev.off()\n\n\n\n\n",
+    "created" : 1442506855561.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3277773479",
+    "id" : "A5CAABED",
+    "lastKnownWriteTime" : 140737488289798,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled4"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

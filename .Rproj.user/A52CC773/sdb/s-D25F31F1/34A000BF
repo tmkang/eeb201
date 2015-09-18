@@ -1,12 +1,12 @@
 {
-    "contents" : "# Bootcamp exercise\n\nfor (ii in 1:9)\n",
+    "contents" : "# Bootcamp exercise\n\n### 1\nfor (ii in 1:9)\nprint(ii)\n\n###2\nfor (ii in 1:9){cat (\"*\", \"&\")}\n\n",
     "created" : 1442434813513.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3827484547",
+    "hash" : "1451844971",
     "id" : "34A000BF",
-    "lastKnownWriteTime" : 1442434868,
+    "lastKnownWriteTime" : 1442445995,
     "path" : "~/Desktop/eeb201/Exercise.R",
     "project_path" : "Exercise.R",
     "properties" : {

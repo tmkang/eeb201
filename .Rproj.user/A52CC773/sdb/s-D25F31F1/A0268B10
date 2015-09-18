@@ -1,0 +1,18 @@
+{
+    "contents" : "#####Plot exercise\n\nsignifthres=0.05\nsum(pvals<signifthres)\n\nsignifthres=0.01\nsum(pvals<signifthres)\n\nsignifthres=0.001\nsum(pvals<signifthres)\n\nnum_pals=length(pvals)\n\nexp_pvals=seq(1/num_pals, num_pals/num_pals, by=1/num_pals)\nlogexp_pvals=-log10(exp_pvals)\n\nsort_pvals=sort(pvals)\n\nlogsort_pvals=-log10(sort_pvals)\n\nplot(logexp_pvals, logsort_pvals)\n\nabline(0, logexp_pvals/logexp_pvals, col=2)\n\n              \n\n",
+    "created" : 1442553031982.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1127716027",
+    "id" : "A0268B10",
+    "lastKnownWriteTime" : 1442555159,
+    "path" : "~/Desktop/eeb201/plot exercise.R",
+    "project_path" : "plot exercise.R",
+    "properties" : {
+        "tempName" : "Untitled5"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
