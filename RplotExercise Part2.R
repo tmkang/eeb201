@@ -11,8 +11,8 @@ bldglucmeas=zzdataframe[,2]
 
 length(bldglucmeas)
 
-quantile(bldglucmeas)
+quantile(bldglucmeas, 0.25)
 
-controls=c(bldglucmeas<"4.768756")
-length(controls)
+controls=which(zzdataframe[,2]<(quantile(bldglucmeas, 0.25)))
 
+cases=which(zzdataframe[,2]>(quantile(bldglucmeas, 0.25)))
