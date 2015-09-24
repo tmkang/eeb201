@@ -22,4 +22,10 @@ discLogRFunc <- function (N0, rr, kk)par(mfrow = c(2,3))for (tt in 1:ttMax){
   plot(1:(ttMax+1), nn, xlab = "time", ylab = "N", col = "hot pink")
 }
 
-#####incomplete###############
+
+  for(tt in 1:10){
+  nn[tt+1]<-c(nn[tt]*(1+RR*(1-nn[tt]/KK)))
+  }
+  plot(time, nn) 
+
+
